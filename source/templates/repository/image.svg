@@ -33,12 +33,6 @@
         <% } %>
       <% } %>
 
-      <% if (base.metadata) { %>
-        <footer>
-          <span>Last updated <%= meta.generated %> with lowlighter/metrics@<%= meta.version %></span>
-        </footer>
-      <% } %>
-
   </div>
   <div id="metrics-end"></div>
   </foreignObject>
